@@ -1,4 +1,4 @@
-# ReserveIT - Hotel & Restaurant Booking System
+# Stavia - Hotel & Restaurant Booking System
 
 A complete full-stack hotel and restaurant booking application built with React (Vite + Tailwind CSS) frontend and Spring Boot + MySQL backend.
 
@@ -79,7 +79,7 @@ The frontend will start on `http://localhost:5173` (or another port if 5173 is b
 ## 📁 Project Structure
 
 ```
-ReserveIT-Hotel-Management-System/
+Stavia-Hotel-Management-System/
 ├── backend/                          # Spring Boot Backend
 │   ├── src/main/java/com/hotelreservation/backend/
 │   │   ├── config/                   # Configuration (Security, Data Seeder)
