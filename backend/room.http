@@ -1,0 +1,16 @@
+### Get all rooms
+GET http://localhost:8080/api/rooms
+
+### Add a new room
+POST http://localhost:8080/api/rooms
+Content-Type: application/json
+
+{
+  "roomNumber": "B102",
+  "roomType": "Suite",
+  "pricePerNight": 3000,
+  "available": true
+}
+
+### Delete Room
+DELETE http://localhost:8080/api/rooms/1

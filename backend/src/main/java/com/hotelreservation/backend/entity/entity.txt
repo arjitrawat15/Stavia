@@ -1,0 +1,1 @@
+For JPA entities (Customer, Room, TableEntity, Reservation, Payment, ServiceMenu)

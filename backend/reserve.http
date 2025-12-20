@@ -1,0 +1,9 @@
+POST http://localhost:8080/api/reservations
+Content-Type: application/json
+
+{
+  "room": { "roomId": 1 },
+  "customer": { "customerId": 1 },
+  "checkInDate": "2025-10-20",
+  "checkOutDate": "2025-10-25"
+}

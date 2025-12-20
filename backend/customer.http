@@ -1,0 +1,40 @@
+### Get all customers
+GET http://localhost:8080/api/customers
+Accept: application/json
+
+###
+
+### Get a customer by ID
+GET http://localhost:8080/api/customers/10
+Accept: application/json
+
+###
+
+### Create a new customer
+POST http://localhost:8080/api/customers
+Content-Type: application/json
+
+{
+  "fullName": "Priyanshu Negi",
+  "email": "priyanshu@example.com",
+  "phoneNumber": "9876543210",
+  "loyaltyPoints": 20
+}
+
+###
+
+### Update a customer
+PUT http://localhost:8080/api/customers/10
+Content-Type: application/json
+
+{
+  "fullName": "Priyanshu N",
+  "email": "priyanshu.n@example.com",
+  "phoneNumber": "9123456780",
+  "loyaltyPoints": 25
+}
+
+###
+
+### Delete a customer
+DELETE http://localhost:8080/api/customers/8
